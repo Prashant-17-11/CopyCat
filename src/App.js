@@ -1,7 +1,8 @@
 import "./App.css";
+import CopyCat from "./containers/CopyCatContainer";
 
 function App() {
-  return <div></div>;
+  return <CopyCat />;
 }
 
 export default App;
