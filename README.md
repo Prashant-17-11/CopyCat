@@ -46,6 +46,14 @@ In this file, you'll see a number of style properties defined. Underneath these,
 
 At the bottom of this file, create a const styles. Set its value to be an object that holds divStyles and imgStyles. Export this styles object.
 
+## Task 6
+
+Go back to CopyCat.js and import styles.
+
+In the JSX in the render() method, set the div element's style to divStyles. Use imgStyles for the img element.
+
+Give h1 a single property: marginBottom: 80.
+
 ###
 
 # Getting Started with Create React App
