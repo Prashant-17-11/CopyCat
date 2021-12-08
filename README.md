@@ -10,6 +10,14 @@ Take a look at the code in <b>components/CopyCat.js</b>. We're going to divide a
 
 Inside of the containers folder, there is a file named <b>CopyCatContainer.js</b>. Copy all of the contents from <b>components/CopyCat.js</b> into <b>containers/CopyCatContainer.js</b>.
 
+## Task 2
+
+Select <b>components/CopyCat.js</b>. This is going to be our presentational component class.
+
+On line 2, delete the line import ReactDOM from 'react-dom'; At the bottom of the file, delete the ReactDOM.render() call.
+
+Inside of CopyCat's class definition, delete everything except for the render function. Finally, export CopyCat.
+
 ###
 
 # Getting Started with Create React App
