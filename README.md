@@ -18,6 +18,16 @@ On line 2, delete the line import ReactDOM from 'react-dom'; At the bottom of th
 
 Inside of CopyCat's class definition, delete everything except for the render function. Finally, export CopyCat.
 
+## Task 3
+
+Select <b>containers/CopyCatContainer.js</b>. This is going to be our container component class.
+
+Import CopyCat at the top of the file.
+
+Now, down where the class is being defined, change CopyCat to CopyCatContainer. Be sure to update this in the ReactDOM.render call.
+
+Inside of CopyCatContainer's render function, delete everything inside of the return statement. Instead, just return an instance of CopyCat.
+
 ###
 
 # Getting Started with Create React App

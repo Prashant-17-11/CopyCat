@@ -1,4 +1,5 @@
 import React from "react";
+import CopyCat from "../components/Copycat";
 
 const images = {
   copycat:
@@ -7,7 +8,7 @@ const images = {
     "https://content.codecademy.com/courses/React/react_photo_quietcat.png",
 };
 
-class CopyCat extends React.Component {
+class CopyCatContainer extends React.Component {
   constructor(props) {
     super(props);
 
@@ -26,17 +27,8 @@ class CopyCat extends React.Component {
     const copying = this.state.copying;
     const toggleTape = this.toggleTape;
 
-    return (
-      <div>
-        <h1>Copy Cat</h1>
-        <img
-          alt="cat"
-          src={copying ? images.copycat : images.quietcat}
-          onClick={toggleTape}
-        />
-      </div>
-    );
+    return <CopyCat />;
   }
 }
 
-export default CopyCat;
+export default CopyCatContainer;
