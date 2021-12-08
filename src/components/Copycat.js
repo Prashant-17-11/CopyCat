@@ -1,5 +1,6 @@
 import React from "react";
 import { styles } from "../Styles";
+import { PropTypes } from "prop-types";
 
 const images = {
   copycat:
@@ -32,5 +33,12 @@ class CopyCat extends React.Component {
     );
   }
 }
+
+CopyCat.propTypes = {
+  copying: PropTypes.bool.isRequired,
+  toggleTape: PropTypes.func.isRequired,
+  input: PropTypes.string.isRequired,
+  handleChange: PropTypes.func.isRequired,
+};
 
 export default CopyCat;

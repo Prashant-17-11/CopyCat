@@ -86,6 +86,18 @@ Inside of the p tags, write a conditional to check the value of copying and deci
 
 When you're done, save your code. Type into the text box and see if anything happens. Click on the cat to toggl whether or not it's copying you!
 
+Typecheck with PropTypes
+
+## Task 11
+
+Let's give our CopyCat component class a propTypes property!
+
+The first thing we'll need to do is import PropTypes at the top of the file.
+
+Next, declare a propTypes property after the close of the component declaration. In the propTypes object, write one propType for each prop that CopyCat is expecting.
+
+Make sure each propType has an isRequired constraint.
+
 ###
 
 # Getting Started with Create React App
