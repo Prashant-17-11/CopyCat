@@ -78,6 +78,14 @@ Next, pass input and handleChange as props to CopyCat.
 
 Navigate back to CopyCat.js and update the values for input's value and onChange attributes.
 
+## Task 10
+
+Still working in <b>CopyCat.js</b>, add a p element after the img element in the JSX.
+
+Inside of the p tags, write a conditional to check the value of copying and decide whether or not to display value here. If copying evaluates to true, value should show up. If copying evaluates to false, value should NOT show up.
+
+When you're done, save your code. Type into the text box and see if anything happens. Click on the cat to toggl whether or not it's copying you!
+
 ###
 
 # Getting Started with Create React App
