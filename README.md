@@ -62,6 +62,16 @@ In <b>CopyCat.js</b>, create an input element between the h1 and img elements. G
 
 The value and onChange will be acquired from the props, but we currently aren't passing anything down for those. For now, use empty braces as their values.
 
+## Task 8
+
+Navigate to <b>CopyCatContainer.js</b>.
+
+Add input to the state and set its initial value to an empty string.
+
+Next, write an event handler function called handleChange which takes the event e as an argument. The function should update the state with input's value whenever it changes.
+
+Don't forget to bind handleChange in the constructor method!
+
 ###
 
 # Getting Started with Create React App
