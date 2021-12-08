@@ -38,6 +38,14 @@ Now switch back to CopyCat in <b>components/CopyCat.js</b>. Make sure the render
 
 Then click Save. If everything was done correctly, the app should look the exact same in the browser as it did in step 1. Don't worry that it doesn't look pretty. We'll spruce it up once we add some style!
 
+## Task 5
+
+Select <b>styles.js</b>.
+
+In this file, you'll see a number of style properties defined. Underneath these, there are two objects, each of which contain a selection of these properties: divStyles and imgStyles.
+
+At the bottom of this file, create a const styles. Set its value to be an object that holds divStyles and imgStyles. Export this styles object.
+
 ###
 
 # Getting Started with Create React App
