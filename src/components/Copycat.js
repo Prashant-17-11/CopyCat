@@ -41,6 +41,7 @@ CopyCat.propTypes = {
   toggleTape: PropTypes.func.isRequired,
   input: PropTypes.string.isRequired,
   handleChange: PropTypes.func.isRequired,
+  name: PropTypes.string.isRequired,
 };
 
 export default CopyCat;
