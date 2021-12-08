@@ -28,6 +28,16 @@ Now, down where the class is being defined, change CopyCat to CopyCatContainer. 
 
 Inside of CopyCatContainer's render function, delete everything inside of the return statement. Instead, just return an instance of CopyCat.
 
+## Task 4
+
+Take a look at CopyCat. You'll see that the component needs access to the copying state as well as the toggleTape method that now only exists in CopyCatContainer.
+
+Inside of <b>containers/CopyCatContainer.js</b>, pass copying and toggleTape as props to CopyCat component.
+
+Now switch back to CopyCat in <b>components/CopyCat.js</b>. Make sure the render method is grabbing copying and toggleTape from the props.
+
+Then click Save. If everything was done correctly, the app should look the exact same in the browser as it did in step 1. Don't worry that it doesn't look pretty. We'll spruce it up once we add some style!
+
 ###
 
 # Getting Started with Create React App
