@@ -16,7 +16,9 @@ class CopyCat extends React.Component {
 
     return (
       <div style={styles.divStyles}>
-        <h1 style={{ marginBottom: 80 }}>Copy Cat</h1>
+        <h1 style={{ marginBottom: 80 }}>
+          Copy Cat {this.props.name ? this.props.name : "Tom"}
+        </h1>
         <input
           type="text"
           value={this.props.input}

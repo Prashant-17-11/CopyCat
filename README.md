@@ -98,6 +98,14 @@ Next, declare a propTypes property after the close of the component declaration.
 
 Make sure each propType has an isRequired constraint.
 
+## Task 12
+
+Finally, let's add an optional name prop to define the cat's name.
+
+Inside of the h1 tags, add a condition immediately after "CopyCat". If a name is passed down in props, that name will be displayed. If not, the name that will be displayed will default to "Tom".
+
+Add a propType for name to propTypes.
+
 ###
 
 # Getting Started with Create React App

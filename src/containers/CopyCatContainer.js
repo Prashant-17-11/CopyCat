@@ -39,6 +39,7 @@ class CopyCatContainer extends React.Component {
         toggleTape={toggleTape}
         input={this.state.userInput}
         handleChange={this.handleChange}
+        name={""} // send a name to change the default name
       />
     );
   }
