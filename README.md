@@ -54,6 +54,14 @@ In the JSX in the render() method, set the div element's style to divStyles. Use
 
 Give h1 a single property: marginBottom: 80.
 
+Add a Form
+
+## Task 7
+
+In <b>CopyCat.js</b>, create an input element between the h1 and img elements. Give it three attributes: type, value, onChange. Set type to be text.
+
+The value and onChange will be acquired from the props, but we currently aren't passing anything down for those. For now, use empty braces as their values.
+
 ###
 
 # Getting Started with Create React App
