@@ -72,6 +72,12 @@ Next, write an event handler function called handleChange which takes the event 
 
 Don't forget to bind handleChange in the constructor method!
 
+## Task 9
+
+Next, pass input and handleChange as props to CopyCat.
+
+Navigate back to CopyCat.js and update the values for input's value and onChange attributes.
+
 ###
 
 # Getting Started with Create React App
